@@ -2,7 +2,6 @@
  - hosts: webserver
    become
    become: no
-   becom: yes
    roles:
     - apache6
     - myapp
